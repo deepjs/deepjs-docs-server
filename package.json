@@ -20,7 +20,7 @@
     "deep-jquery": ">=0.3.0",
     "deep-mongo": ">=0.6.0",
     "deep-shell": ">=0.3.0",
-    "deep-swig": ">=0.6.0",
+    "deep-swig": ">=0.5.1",
     "deep-views": ">=0.1.1",
     "rql": ">=0.3.1"
   }
