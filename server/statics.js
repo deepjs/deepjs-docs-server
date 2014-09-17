@@ -1,14 +1,11 @@
-var deep = require("deepjs/deep");
-
+var deep = require("deepjs");
 // map for static files served by server (the map itself could be OCM)
-var statics = {
-	"/": [{
+module.exports = {
+	"/": [{ // serve root
 		path: deep.globals.rootPath + '/www',
-		options: {
+		options: {	// native expressjs connect-statics options
 			maxAge: 86400000,
 			redirect: false
 		}
 	}]
 };
-
-module.exports = statics;
