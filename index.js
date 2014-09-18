@@ -1,4 +1,4 @@
-var deep = require("deepjs");
+deep = require("deepjs");
 
 var express = require('express'),
 	autobahn = require("autobahnjs"),	// bunch of middlware for expressjs
@@ -17,6 +17,7 @@ deep.context("cwd", __dirname);
 
 // assign default modes.
 deep.Modes({
+	env:"dev",
 	roles:"public"
 });
 
